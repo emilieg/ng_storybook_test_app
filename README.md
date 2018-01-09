@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
+## Installation & Run instructions 
+
+git clone
+npm install (if errors, follow error print out and manually install what's missing - I think you can ignore the React errors)
+npm run storybook
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
