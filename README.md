@@ -4,9 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation & Run instructions 
 
-git clone
-npm install (if errors, follow error print out and manually install what's missing - I think you can ignore the React errors)
-npm run storybook
+`git clone`
+
+`npm install` (if error, follow error print out and manually install what's missing - I think you can ignore the React errors)
+
+`npm run storybook`
 
 
 
