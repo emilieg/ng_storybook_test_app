@@ -1,3 +1,14 @@
-<p>
-  table-component works!
-</p>
+<table>
+	<thead>
+		<tr>
+			<th *ngFor="let header of headers"> {{ header }}</th>
+		</tr>	
+	</thead>
+	<tbody>
+
+		<tr *ngFor="let data of tableData">
+			<td *ngFor="let d of data">{{ d }}</td>
+		</tr>
+
+	</tbody>
+</table>

@@ -12,6 +12,6 @@ export class MyButtonComponent implements OnInit {
   ngOnInit() {
   }
 
-  @Input() text = '';
+  @Input() text = 'click me';
   @Output() onClick = new EventEmitter<any>();
 }
