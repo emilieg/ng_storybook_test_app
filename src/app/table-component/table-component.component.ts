@@ -9,7 +9,14 @@ export class TableComponentComponent implements OnInit {
 
   constructor() { }
 
+  public tableData;
+  public headers;
+
   ngOnInit() {
+
+    this.tableData = this.data.data;          
+
+    this.headers = this.data.headers;    
   }
 
   @Input() data = {data:
@@ -18,10 +25,10 @@ export class TableComponentComponent implements OnInit {
 							         [3,'Kerry', 'Dewhurst','kdewhurst2@patch.com','Male','234.176.216.140'] ],
       						headers: ['id','first_name','last_name','email','gender','ip_address']
       						};
-  
-  public tableData = this.data.data;          
 
-  public headers = this.data.headers;					
+  @Input() label = "This is a label";                
+  
+			
 
 
 

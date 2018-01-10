@@ -14,4 +14,10 @@ export class MyButtonComponent implements OnInit {
 
   @Input() text = 'click me';
   @Output() onClick = new EventEmitter<any>();
+
+
+  public trigger($event){
+  	console.log("hearing the ", $event);
+  	this.onClick.emit($event);
+  }
 }
